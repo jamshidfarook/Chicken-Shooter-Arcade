@@ -1,0 +1,109 @@
+# Chicken Shooter Arcade
+
+Chicken Shooter Arcade is a simple arcade-style shooting game built using Python and Kivy.
+Players shoot jumping chickens, avoid misses, and try to achieve the highest score possible.
+
+---
+
+## Features
+
+* Animated background
+* Chicken jump physics
+* Sound effects and background music
+* Difficulty levels (Easy, Medium, Hard)
+* Pause menu with volume controls
+* Home screen and settings menu
+* Game over screen
+* Loading screen simulation
+
+---
+
+## Requirements
+
+Python 3.9+ recommended
+
+Install dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+Dependencies:
+
+* kivy
+* pillow
+
+---
+
+## Project Structure
+
+```
+ChickenShooterArcade/
+│
+├── main.py
+├── requirements.txt
+│
+├── images/
+│   ├── chicken.png
+│   ├── fried_chicken.png
+│   ├── ground.png
+│   └── bg.gif
+│
+└── sounds/
+    ├── jump.wav
+    ├── hit.wav
+    ├── failed.wav
+    ├── menu1.mp3
+    ├── menu2.mp3
+    ├── menu3.mp3
+    ├── game1.mp3 ... game10.mp3
+```
+
+---
+
+## How to Run
+
+Run the game using:
+
+```bash
+python main.py
+```
+
+---
+
+## Controls
+
+### Home Screen
+
+* Start Game — begins gameplay
+* Settings — adjust difficulty and volume
+* About — view game info
+* Hold the chicken for 5 seconds to cook it
+
+### Gameplay
+
+* Tap chickens to shoot them
+* Avoid missing too many chickens
+* Use the Pause button to open the pause menu
+
+### Pause Menu
+
+* Resume game
+* Exit to home screen
+* Adjust Music and SFX volume
+
+---
+
+## Credits
+
+Game developed by Jamshid Farook
+Built with Kivy (MIT License)
+
+Audio assets from Pixabay
+https://pixabay.com
+
+---
+
+## License
+
+This project is for educational and personal use.
